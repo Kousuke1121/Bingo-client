@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.Sheet{
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.Sheet tr td{
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.Sheet tr{
+    text-align: center;
+}
+
+.Button {
+    margin-top: 50px;
+    text-align: center;
+}
+.Button button{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 280px;
+    color: #333;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #cccccc;
+    box-shadow: 0 5px 0 #aaaaaa;
+    transition: 0.3s;
+}
+.Button button:hover{
+    transform: translateY(3px);
+    text-decoration: none;
+    box-shadow: 0 2px 0 #aaaaaa;
+}
